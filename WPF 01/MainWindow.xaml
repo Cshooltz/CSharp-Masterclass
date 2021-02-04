@@ -1,0 +1,33 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_01"
+        xmlns:System="clr-namespace:System;assembly=System.Runtime" x:Class="WPF_01.MainWindow"
+        mc:Ignorable="d"
+        Title="My First GUI" Height="450" Width="800">
+    <!-- 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="108*"/>
+            <RowDefinition Height="109*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Click Me!" FontSize="12" Height="50" Width="100" Margin="350,192,350,192" Grid.RowSpan="2"/>
+        <Button Content="A button" Height ="30" Width="80" Margin="231,73,489,115" Grid.Row="1"></Button>
+        <Button Margin="0,133,517,42" HorizontalAlignment="Right">
+            <Button.FontSize>
+                <System:Double>24</System:Double>
+            </Button.FontSize>
+            <Button.Width>
+                <System:Double>200</System:Double>
+            </Button.Width>
+            <WrapPanel Height="262">
+                <TextBlock Foreground="AliceBlue"><Run Text="Multi"/></TextBlock>
+                <TextBlock Foreground="Chocolate"><Run Text="Color"/></TextBlock>
+                <TextBlock Foreground="Magenta"><Run Text="Button"/></TextBlock>
+            </WrapPanel>
+        </Button>
+
+    </Grid>-->
+</Window>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WPF 07 - Databinding/1.0.0": {
+        "runtime": {
+          "WPF 07 - Databinding.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPF 07 - Databinding/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

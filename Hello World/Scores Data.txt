@@ -1,0 +1,3 @@
+Score 1: 34
+Score 2: 18
+Score 3: 1

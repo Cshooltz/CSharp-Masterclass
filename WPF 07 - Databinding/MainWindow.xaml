@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPF_07___Databinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_07___Databinding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!-- 
+    
+    4 Modes of Data Binding
+    Binding Target   <-  One Way      Binding Source
+    Binding Target   <-  Two Way  ->  Binding Source  
+    Binding Target   One Way to Source ->  Binding Source
+    Binding Target   <_ _ _ One Time  Binding Source - done in constructor so only once during initialization
+    
+    -->
+
+    <StackPanel>
+        <!-- Textbox is the target -->
+        <TextBox Name="MyTextBox" Width="100" Margin="50" Text="{Binding ElementName=MySlider, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <!-- Slider is the source -->
+        <Slider IsSnapToTickEnabled="True" Name="MySlider" Minimum="0" Maximum="100"></Slider>
+        <!-- You can bind just about any property. The example given in the video was Background. -->
+    </StackPanel>
+</Window>

@@ -1,0 +1,40 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="WPF_09A.MainWindow"
+        Title="WPF_09A">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"></ColumnDefinition>
+			<ColumnDefinition Width="100"></ColumnDefinition>
+		</Grid.ColumnDefinitions>
+		<ListBox Name="lbMatches" HorizontalAlignment="Stretch" Grid.Column="0">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Grid Margin="2" HorizontalAlignment="Stretch">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition  Width="1*"/>
+							<!-- Team 1 -->
+							<ColumnDefinition Width="1*"/>
+							<!-- Score -->
+							<ColumnDefinition Width="1*"/>
+							<!-- Score -->
+							<ColumnDefinition Width="1*"/>
+							<!-- Team 2 -->
+							<ColumnDefinition Width="1*"/>
+							<!-- Progress -->
+						</Grid.ColumnDefinitions>
+						<TextBlock Grid.Column="0" Text="{Binding Team1}"></TextBlock>
+						<TextBlock Grid.Column="1" HorizontalAlignment="Center" Text="{Binding Score1}"></TextBlock>
+						<TextBlock Grid.Column="2" HorizontalAlignment="Center" Text="{Binding Score2}"></TextBlock>
+						<TextBlock Grid.Column="3" Text="{Binding Team2}"></TextBlock>
+						<ProgressBar Grid.Column="4" Minimum="0" Maximum="90" Value="{Binding Completion}"></ProgressBar>
+					</Grid>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+		<Button Grid.Column="1" Click="Button_Click">Show Selected</Button>
+	</Grid>
+</Window>

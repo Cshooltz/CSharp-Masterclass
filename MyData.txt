@@ -1,0 +1,4 @@
+Some text.
+Hello world.
+Each line is ended with a line break.
+Rayleigh Tridith.

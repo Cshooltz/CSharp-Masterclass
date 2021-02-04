@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WPF 09 - Listbox/1.0.0": {
+        "runtime": {
+          "WPF 09 - Listbox.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPF 09 - Listbox/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

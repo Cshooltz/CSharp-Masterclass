@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WPF 10 Combobox/1.0.0": {
+        "runtime": {
+          "WPF 10 Combobox.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPF 10 Combobox/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
