@@ -1,7 +1,7 @@
 # C# Masterclass
 I am hosting the code from this course to act as a reference and to share what I've accomplished. All code is written by my hand following the course, and most comments are my personal annotations to help explain what is going on.
 
-In general, I structured my code around having a class per section, and if multiple classes were needed I stored the files together in a folder. The class-per-section format brok down sometimes, particularly with sections using WPF, in which case I would create a new project within the solution. 
+In general, I structured my code around having a class per section, and if multiple classes were needed I stored the files together in a folder. The class-per-section format broke down sometimes, particularly with sections using WPF, in which case I would create a new project within the solution. 
 
 If you are interested in learning to program, or specifically to learn to program in C#, I highly recommend the Complete C# Masterclass by Denis Panjuta on Udemy. It is one of the most comprehensive programming courses I have yet seen. For details on the course, please see the course description on Udemy: [Complete C# Masterclass](https://www.udemy.com/course/complete-csharp-masterclass/)
 
