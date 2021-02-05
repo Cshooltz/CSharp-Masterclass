@@ -11,7 +11,7 @@ All of the code is meant to be run from Visual Studio. Each section's class is m
 ### Notable Sections
 Most of this course was covering the basic use of most C# constructs. There are a few notable parts of the course that were more involved projects that involved creative use of the concepts taught in the course. The first one is in [Section 7](Hello%20World/Section%207), where I was tasked with writing a complete TicTacToe game for the command line interface. This was one of the first projects that really stretched me, and I intentionally tried to code the game in a way that was different from what the instructor taught.
 
-The second is the [WPF ZooManager](WPF%20ZooManager) project. This part of the course involved making a small but complete WPF application that would allow the user to edit data contained the a Microsoft SQL server. This was my first time making a complete graphical application from scratch and is my favorite project of the entire course (so far).
+The second is the [WPF ZooManager](WPF%20ZooManager) project. This part of the course involved making a small but complete WPF application that would allow the user to edit data contained the a Microsoft SQL server. This was my first time making a complete graphical application from scratch and is my favorite project of the entire course (so far). This project was also my original inspiration for the [Data Editor App](https://github.com/Cshooltz/Data-Editor-App) I am working on.
 
 ### Course Topics
 The following is a list of the course's topics, and the ones I have completed are checked. I have not completed every section just yet (the remaining ones are stand alone projects), but I intend to get back to them eventually when the time is right.
